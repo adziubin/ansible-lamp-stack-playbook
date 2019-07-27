@@ -13,4 +13,4 @@
     - mysql
     - php-fpm
   vars:
-    mysql_root_password: "mypass"
+    mysql_root_password: "Random"
