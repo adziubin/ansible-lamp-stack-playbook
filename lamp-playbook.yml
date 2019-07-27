@@ -12,5 +12,7 @@
     - apache2
     - mysql
     - php-fpm
+    - system
   vars:
-    mysql_root_password: "Random"
+    mysql_root_password: "Changeme"
+    devops_password: "Changeme"
