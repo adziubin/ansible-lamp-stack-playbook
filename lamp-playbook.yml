@@ -12,7 +12,9 @@
     - apache2
     - mysql
     - php-fpm
-    - system
+    - user
+    - iptables
   vars:
-    mysql_root_password: "Changeme"
-    devops_password: "Changeme"
+    mysql_root_password: "ChangeMe"
+    devops_password: "ChangeMe"
+    current_mysql_root_password: "ChangeMe"
